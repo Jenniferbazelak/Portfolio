@@ -1,54 +1,186 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta lang="en-s">
-    <title>Jennifer Bazelak</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jennifer Bazelak</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class="wrapper">
-
-        <nav class="nav-bar">
-            <h1 class="name">Jennifer Bazelak</h1>
-            <div class="tabs">
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-
-
-
-        <div class="main-content">
-            <h1>About Me</h1>
-            <hr>
-            <div class="bioimage">
-                <img src="assets/images/profilepicture1 2.jpg" alt=bio-image>
-            </div>
-            <div class="bio">
-                <p>Welcome to my portfolio page! I'm a web developer in Austin, TX. In my previous career, I was a top sales
-                    consultant, nine times over. I worked for a builder and sold new homes for 6 years. Before my sales career,
-                    I was a successful middle school math teacher. With this unique, career background, I'm able to leverage
-                    experience from previous work fields to create a unique perspective for user-based technologies. </p>
-                <br>
-
-                <p>I enjoy creative, problem solving while taking on the task at hand and ultimately seeing it through to completion.
-                    I excels at both browser based technologies and server side development. I perform under pressure and
-                    I'm a great communicator that works well in a group or independently. Outside of web developing, I stay
-                    busy spending time with my husband, two daughters and 3 doggers.</p>
-                <br>
-
-            </div>
+  <!-- Header Image -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <!-- diff -->
+        <h1 class="header left teal-text text-lighten-2 main-title">jennifer bazelak</h1>
+        <div class="row center">
+          <!-- diff -->
+          <div class="col m1 l1 xl1"></div>
         </div>
-        <div class="push"></div>
+      </div>
     </div>
-    <footer class="footer">Copyright</footer>
-
-</body>
-
+    <div class="parallax"><img src="images/alysa-bajenaru-100637-unsplash.jpg" alt="flowers"></div>
+  </div>
+  <!-- Descriptions -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+              <div class="bio-image"><img src="images/profilepicture1 2.jpg" alt="biopic"></div>
+          </div>
+        </div>
+        <div class="col s12 m8">
+          <div class="icon-block">
+            <h5 class="center">about me</h5>
+            <p class="light">A top sales consultant, nine times over, and a former educator with a passion for web development. Can leverage experience from previous work fields to create a unique perspective for user-based technologies. Enjoys creative, problem solving while taking on the task at hand and ultimately seeing it through to completion. Excels at both browser based technologies and server side development. Performs under pressure and is a good communicator that works well in a group or independently. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quote Block 1 -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot" id="quote1">
+      <div class="container">
+        <div class="row center">
+          <div class="col m2"></div>
+          <h5 class="header col m8 s12">Great presentation, outstanding teamwork, and a really nice design, you hit it out of the park. Also, your firebase/redirect/session storage work was solid. Cool concept, too!</h5>
+          <h5 class="header col s12 light">- Adam Camacho (TA for University of Texas Full Stack Bootcamp)</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/larm-rmah-219228-unsplash (1).jpg" alt="flowers2"></div>
+  </div>
+  <!-- Featured Projects -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <h4 class="center">Featured Projects</h4>
+          <br>
+          <div class="row">
+            <!-- Project 1 -->
+            <div class="col s12 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/dogv.jpg" alt="dog">
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Tailwag</span>
+                  <p>Tailwag is an app for local dog owners in Austin to find advertised and non-advertised dog parts. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://jenniferbazelak.github.io/ProjectOne/" target="blank" class="teal-text text-lighten-2">View the project</a>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/Jenniferbazelak/ProjectOne" target="blank" class="teal-text text-lighten-2">Read the code</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col s12 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/timev.jpg" alt="time">
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Train Scheduler</span>
+                  <p>This is an app that displays train schedules. Users can enter train info and this app will track the next arrival based on the frequency.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://jenniferbazelak.github.io/TrainTime/" target="blank" class="teal-text text-lighten-2">View the project</a>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/Jenniferbazelak/TrainTime" target="blank" class="teal-text text-lighten-2">Read the code</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col s12 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/longhornv.jpg" alt="longhorn">
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Longhorn Trivia</span>
+                  <p>This is a trivia game that allows users to test their knowledge with a timed 10 question game.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://jenniferbazelak.github.io/TriviaGame/" target="blank" class="teal-text text-lighten-2">View the project</a>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/Jenniferbazelak/TriviaGame" target="blank" class="teal-text text-lighten-2">Read the code</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col s12 m3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="images/throwback2-1177x557 (1) 2.webp" alt="emotions">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Giftastic</span>
+                    <p>An app that allows users to search for gifs based on the emotion they type in. </p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://jenniferbazelak.github.io/GifTastic/" target="blank" class="teal-text text-lighten-2">View the project</a>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/Jenniferbazelak/GifTastic" target="blank" class="teal-text text-lighten-2">Read the code</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quote Block 2 -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot" id="quote2">
+      <div class="container">
+        <div class="row center tealtext">
+          <div class="col m2"></div>
+          <h5 class="header col m8 s12 light roundy-rainbows">Looks perfect, great job! - James Vera (TA for University of Texas Full Stack Bootcamp)</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/alysa-bajenaru-100637-unsplash.jpg" alt="flowers3"></div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer center teal lighten-2">
+      <div class="container">
+          <div class="row"></div>
+              <div class="col s12"></div>
+          <div class="row">
+            <div class="col s12">
+                <div class="col s12 m4">
+    <a class="white-text" href="mailto:jenniferbazelak@gmail.com"><i class="far fa-envelope fa-4x"></i></a></div>
+    <div class="col s12 m4">
+    <a class="white-text" href="https://www.linkedin.com/in/jenniferbazelak/" target="blank"><i class="fab fa-linkedin fa-4x"></i></a></div>
+    <div class="col s12 m4">
+    <a class="white-text" href="https://github.com/Jenniferbazelak" target="blank"><i class="fab fa-github fa-4x"></i></a></div>
+    </div>
+    </div>
+    </div>
+    <div class="row"></div>
+              <div class="col s12"></div>
+    
+  </footer>
+  <!-- JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
 </html>
