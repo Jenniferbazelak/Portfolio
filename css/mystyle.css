@@ -17,6 +17,11 @@
     line-height: 1.5rem;
 }
 
+.line2{
+    font-size:32px;
+    position:relative;
+    top:-32px;
+}
 
 .bio-image{
     width:214px;
@@ -24,7 +29,8 @@
 }
 
 .bio{
-    padding-left: 57px;
+    padding-left: 30px;
+    font-size: 22px;
 }
 
 
