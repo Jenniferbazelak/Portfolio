@@ -2604,9 +2604,10 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: black;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+  
 }
 
 .valign-wrapper {
@@ -2944,7 +2945,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: white;
 }
 
 .page-footer .footer-copyright {

@@ -1,24 +1,35 @@
+
+*{
+    font-family: 'Cuprum', sans-serif;  
+}
+
+
 .card-image{
-    height:150px;
+    height:220px;
 }
 .ppic{
     height:150px;
 }
 .card-content{
-    height:205px;
+    height:134px;
 }
 .card-info{
     line-height: 1.5rem;
 }
-.action1{
-    padding:20px;
-}
+
 
 .bio-image{
-    width:238px;
+    width:214px;
+    height: 330px;
 }
-.links{
-padding:20px;
+
+.bio{
+    padding-left: 57px;
+}
+
+
+.project-links{
+    font-size:16px;
 }
 @media only screen and (max-width : 600px){
     .card-content{
