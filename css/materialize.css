@@ -3571,7 +3571,7 @@ table span.badge {
 .row .col.s12 {
   width: 100%;
   margin-left: auto;
-  left: auto;
+  left: 130px;
   right: auto;
 }
 

@@ -17,10 +17,15 @@
     line-height: 1.5rem;
 }
 
+.line1{
+    position:relative;
+    top:49px;
+}
+
 .line2{
     font-size:32px;
     position:relative;
-    top:-32px;
+    top:11px;
 }
 
 .bio-image{
