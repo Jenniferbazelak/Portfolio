@@ -57,8 +57,7 @@ p {
       padding: 11px;
   }
   #review2{
-    position:relative;
-    bottom:-66px;
+    padding-bottom: 20px;
   }
   }
 
@@ -67,10 +66,15 @@ p {
     top: 0;
   }
 
-  #review1{
+  /* #review1{
     position:relative;
     top:-124px;
-  }
+  } */
+
+  /* #review2{
+    position:relative;
+    top:-124px;
+  } */
 
 .icon-block {
   padding: 0 15px;
@@ -82,20 +86,17 @@ p {
 footer.page-footer {
   margin: 0;
 }
-#review2{
-  position:relative;
-  bottom:31px;
-}
+
 .bio-image{
   position: relative;
     right: -54px;
 }
-#header{
+/* #header{
   position: relative;
     right: 148px;
     top: 36px;
     font-size: 76px;
-}
+} */
 .card-content{
   height:159px;
 }

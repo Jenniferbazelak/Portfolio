@@ -17,15 +17,8 @@
     line-height: 1.5rem;
 }
 
-.line1{
-    position:relative;
-    top:49px;
-}
-
-.line2{
-    font-size:32px;
-    position:relative;
-    top:11px;
+.main-title {
+    font-size: 7em;
 }
 
 .bio-image{
@@ -46,5 +39,11 @@
     .card-content{
         height:159px;
     }
+}
+
+@media only screen and (max-width: 419px){
+.main-title {
+    font-size: 5em;
+}
 }
 
