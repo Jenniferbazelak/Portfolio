@@ -147,6 +147,10 @@
         #quote2 {
           top: 15%;
         }
+            .bio-image{
+                margin-left: 18%;
+            }
+        
       }
       
       @media only screen and (max-width : 419px) {
