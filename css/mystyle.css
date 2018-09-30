@@ -31,19 +31,141 @@
     font-size: 22px;
 }
 
+#quote2 {
+    top: 25%;
+  }
+
 
 .project-links{
     font-size:16px;
 }
-@media only screen and (max-width : 600px){
-    .card-content{
-        height:159px;
-    }
-}
 
-@media only screen and (max-width: 419px){
-.main-title {
-    font-size: 5em;
-}
-}
+@media only screen and (max-width : 1126px) {
+    .bio{
+        padding-left: 58px;
+        font-size: 20px; 
+    }
+  }
+
+      
+      @media only screen and (max-width : 967px) {
+        .main-title {
+          font-size: 5em;
+        }
+        
+        #index-banner .section {
+          top: 10%;
+        }
+      }
+      
+      @media only screen and (max-width : 966px) {
+        #quote2 {
+          top: 20%;
+        }
+      }
+      
+      @media only screen and (max-width : 814px) {
+        #main-header {
+          font-size: 5em;
+        }
+        .bio-image{
+            margin-top: 20%;
+        }
+      }
+      
+      @media only screen and (max-width : 801px) {
+        #quote1 {
+          top: 15%;
+        }
+      }
+      
+      @media only screen and (max-width : 739px) {
+        #quote2 {
+          top: 15%;
+        }
+        .bio{
+            padding-left: 64px;
+            font-size: 18px; 
+        }
+
+      }
+
+      @media only screen and (max-width : 690px) {
+        
+        .bio{
+            padding-left: 70px;
+            font-size: 17px; 
+        }
+        .bio-title{
+            padding-left: 31px;
+        }
+
+      }
+      
+      @media only screen and (max-width : 600px) {
+        #quote1 {
+          top: 20%;
+        }
+        
+        #quote2 {
+          top: 20%;
+        }
+        .card-content{
+            height:159px;
+        }
+        .bio-image{
+            margin-left: 29%;
+        }
+        .bio-title{
+            padding-left: 0px;
+        }
+        .bio{
+            padding-left: 0px;
+        }
+      }
+      
+      @media only screen and (max-width : 549px) {
+        #index-banner .section {
+          top: 0;
+        }
+      
+        .subtitle {
+          margin-top: 0px;
+        }
+      }
+      
+      @media only screen and (max-width : 504px) {
+        #quote1 {
+          top: 15%;
+        }
+        .bio-image{
+            margin-left: 25%;
+        }
+      }
+      
+      @media only screen and (max-width : 465px) {
+        #quote2 {
+          top: 15%;
+        }
+      }
+      
+      @media only screen and (max-width : 419px) {
+        .main-title {
+          font-size: 5em;
+        }
+      
+        .subtitle {
+          margin-top: 0px;
+        }
+        
+        #index-banner .section {
+          top: 0px;
+        }
+      }
+    
+      
+
+
+
+
 
